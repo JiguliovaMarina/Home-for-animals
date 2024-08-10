@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1920px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.header {
+  background-color: #c57e1c;
+  padding: 30px 357px;
+}
+
+.header__block {
+  display: grid;
+  grid-template-columns: 0.2fr 0.6fr 0.2fr;
+  gap: 0 91px;
+}
+
+.header__logo {
+}
+
+.header__list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__item {
+}
+
+.header__link {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  text-align: center;
+  /* line-height: 29.05; */
+}
+
+.header__contacts {
+  padding: 14px 11px;
+}
+
+.hero {
+  width: 1300px;
+}
+
+.hero__block {
+}
+
+.hero__title {
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 128px;
+  font-weight: 900;
+  line-height: 154.91px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.hero__text {
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48.41px;
+  text-align: left;
+  color: #000000;
+}
+
+.hero__button {
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 43.57px;
+  text-align: center;
+  background-color: #c57e1c;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 5px 5px;
+  border: none;
+  box-shadow: 5px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero__img {
+}
+
+.about {
+  width: 1300px;
+}
+
+.about__title {
+}
+
+.title {
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 77.45px;
+  text-align: center;
+  color: #060606;
+  margin-bottom: 35px;
+}
+
+.about__img {
+}
+
+.about__text {
+}
+.about__desc {
+}
+
+.description {
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.05px;
+  text-align: justify;
+  color: #000000;
+}
+
+.about__jpg {
+}
+
+.activities {
+}
+
+.activities__title {
+}
+.activities__list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.activities__item {
+}
+
+.activities__img {
+}
+
+.activities__block {
+  width: 537px;
+  height: 692px;
+  color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+.activities__text {
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.05px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.activities__item {
+}
+
+.activities__img {
+}
+.activities__slider {
+}
+
+.contacts {
+}
+
+.contacts__title {
+}
+
+.activities__point {
+}
+
+.actiivities__link {
+  width: 100px;
+  height: 100px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+}
+
+.actiivities__link--active {
+  background-color: #6f6f6f;
+}
+
+.contacts__block {
+  width: 1300px;
+}
+
+.info {
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.05px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.contacts__link {
+  color: #000000;
+}
+
+.contacts__address {
+  color: #000000;
+}
+
+.contacts__img {
+}
+
+.footer {
+}
+
+.footer__block {
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  width: 1300px;
+}
+
+.footer__logo {
+}
+
+.footer__text {
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  text-align: justify;
+  color: #ffffff;
+}
+
+.footer__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  list-style: none;
+}
+
+.footer__item {
+}
+
+.footer__link {
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29.05px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.footer__contacts {
+  color: #ffffff;
+}
+
+.footer__address {
+  color: #ffffff;
+}
+
+.footer__rights {
+  color: #ffffff;
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  text-align: center;
+}
