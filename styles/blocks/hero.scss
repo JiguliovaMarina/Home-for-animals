@@ -1,0 +1,43 @@
+@import "../global/variables.scss";
+
+.hero {
+  
+}
+
+.hero__block {
+  width: 1300px;
+}
+
+.hero__title {
+  font-family: $inter;
+  font-size: 128px;
+  font-weight: 900;
+  line-height: 154.91px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.hero__text {
+  font-family: $inter;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48.41px;
+  text-align: left;
+  color: #000000;
+}
+
+.hero__button {
+  font-family: $inter;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  background-color: #c57e1c;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 5px 5px;
+  border: none;
+  box-shadow: 5px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero__img {
+}

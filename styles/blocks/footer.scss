@@ -1,0 +1,58 @@
+@import "../global/variables.scss";
+
+.footer {
+}
+
+.footer__block {
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  width: 1300px;
+}
+
+.footer__logo {
+}
+
+.footer__text {
+  font-family: $inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  text-align: justify;
+  color: #ffffff;
+}
+
+.footer__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  list-style: none;
+}
+
+.footer__item {
+}
+
+.footer__link {
+  font-family: $inter;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29.05px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.footer__contacts {
+  color: #ffffff;
+}
+
+.footer__address {
+  color: #ffffff;
+}
+
+.footer__rights {
+  color: #ffffff;
+  font-family: $inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  text-align: center;
+}

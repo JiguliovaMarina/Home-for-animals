@@ -1,0 +1,119 @@
+@import "../global/variables.scss";
+
+.header {
+    background-color: #c57e1c;
+    padding: 30px 20%;
+}
+
+.tuggle {
+  display: block;
+  cursor: pointer;
+}
+
+.menu_list {
+  display: none;
+}
+
+.menu_list.active {
+  display: block;
+}
+
+@media (max-width: 1650px) {
+  .header {
+    background-color: #c57e1c;
+    padding: 30px 10%;
+  }
+}
+
+@media (max-width: 1230px) {
+  .header {
+    width: 100vw; /* Обеспечивает растяжение на всю ширину окна просмотра */
+    margin: 0; /* Убирает внешние отступы */
+    padding: 10px 50px; /* Убирает внутренние отступы */
+  }
+  
+
+  .header__list, .call_back {
+    display: none;
+  }
+
+  .menu_list.active {
+    display: block;
+  }
+
+  .tuggle {
+    display: block;
+    float: right;    
+  }
+
+  #more {
+    width: 40px;
+    float: right;
+    padding-top: 30px;
+  }
+}
+
+.header__block {
+  display: grid;
+  grid-template-columns: 0.1fr 0.8fr 0.1fr;
+  margin: 0; /* Убедитесь, что нет отступов */
+  padding: 0; /* Убедитесь, что нет внутреннего отступа */
+  width: 100%;
+}
+
+
+.header__logo {}
+
+.header__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.header__item {
+  display: block;
+  padding: 10px 30px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: $inter;
+  font-weight: 900;
+  font-size: 26px;
+  text-align: center;
+  width: 179px;
+}
+
+.header__contacts {
+  padding: 14px 11px;
+}
+
+@media (max-width: 780px) {
+  .header {
+    width: 100vw; /* Обеспечивает растяжение на всю ширину окна просмотра */
+    margin: 0; /* Убирает внешние отступы */
+    padding: 10px 50px; /* Убирает внутренние отступы */
+  }
+  
+
+  .header__list, .call_back {
+    display: none;
+  }
+
+  .menu_list.active {
+    display: block;
+  }
+
+  .tuggle {
+    display: block;
+    float: right;    
+  }
+
+  #more {
+    width: 40px;
+    float: right;
+    padding-top: 30px;
+  }
+}

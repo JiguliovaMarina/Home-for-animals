@@ -1,0 +1,62 @@
+@import "../global/variables.scss";
+
+.activities {
+}
+
+.activities__title {
+}
+.activities__list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.activities__item {
+}
+
+.activities__img {
+}
+
+.activities__block {
+  width: 537px;
+  height: 692px;
+  color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+.activities__text {
+  font-family: $inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.05px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.activities__item {
+}
+
+.activities__img {
+}
+.activities__slider {
+}
+
+.contacts {
+}
+
+.contacts__title {
+}
+
+.activities__point {
+}
+
+.actiivities__link {
+  width: 100px;
+  height: 100px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+}
+
+.actiivities__link--active {
+  background-color: #6f6f6f;
+}

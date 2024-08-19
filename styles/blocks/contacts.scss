@@ -1,0 +1,26 @@
+@import "../global/variables.scss";
+
+.contacts__block {
+    width: 1300px;
+  }
+  
+  .info {
+    font-family: $inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .contacts__link {
+    color: #000000;
+  }
+  
+  .contacts__address {
+    color: #000000;
+  }
+  
+  .contacts__img {
+  }
+  
