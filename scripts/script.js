@@ -3,6 +3,6 @@ document.addEventListener("DOMContentLoaded", function() {
     const menu = document.getElementById('menu');
 
     burger.addEventListener('click', function() {
-        menu.classList.toggle('active');
+        menu.classList.header__toggle('active');
     });
 });

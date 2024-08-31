@@ -1,1 +1,44 @@
 $inter: "Inter", 'Arial' sans-serif;
+
+$mobile-small: 320px;
+$mobile-medium: 481px;
+$tablet-portrait: 768px;
+$tablet-landscape: 1024px;
+$laptop: 1230px;
+$desktop: 1440px;
+
+@mixin mobile-small {
+    @media (max-width: $mobile-small) {
+      @content;
+    }
+  }
+  
+  @mixin mobile-medium {
+    @media (min-width: $mobile-medium) and (max-width: ($tablet-portrait - 1px)) {
+      @content;
+    }
+  }
+  
+  @mixin tablet-portrait {
+    @media (min-width: $tablet-portrait) and (max-width: ($tablet-landscape - 1px)) {
+      @content;
+    }
+  }
+  
+  @mixin tablet-landscape {
+    @media (min-width: $tablet-landscape) and (max-width: ($laptop - 1px)) {
+      @content;
+    }
+  }
+  
+  @mixin laptop {
+    @media (min-width: $laptop) and (max-width: ($desktop - 1px)) {
+      @content;
+    }
+  }
+  
+  @mixin desktop {
+    @media (min-width: $desktop) {
+      @content;
+    }
+  }

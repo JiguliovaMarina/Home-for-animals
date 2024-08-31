@@ -1,21 +1,13 @@
 @import "../global/variables.scss";
 
 .header {
-    background-color: #c57e1c;
-    padding: 30px 20%;
+  background-color: #c57e1c;
+  padding: 30px 20%;
 }
 
-.tuggle {
-  display: block;
-  cursor: pointer;
-}
-
-.menu_list {
+.header__tuggle {
   display: none;
-}
-
-.menu_list.active {
-  display: block;
+  cursor: pointer;
 }
 
 @media (max-width: 1650px) {
@@ -25,15 +17,15 @@
   }
 }
 
-@media (max-width: 1230px) {
+@media (laptop) {
   .header {
-    width: 100vw; /* Обеспечивает растяжение на всю ширину окна просмотра */
-    margin: 0; /* Убирает внешние отступы */
-    padding: 10px 50px; /* Убирает внутренние отступы */
+    width: 100vw;
+    margin: 0;
+    padding: 10px 50px;
   }
-  
 
-  .header__list, .call_back {
+  .header__list,
+  .call_back {
     display: none;
   }
 
@@ -41,28 +33,30 @@
     display: block;
   }
 
-  .tuggle {
+  .header__tuggle {
     display: block;
-    float: right;    
+    float: right;
   }
 
-  #more {
-    width: 40px;
-    float: right;
-    padding-top: 30px;
+  .menu_list {
+    display: none;
+  }
+
+  .menu_list.active {
+    display: block;
   }
 }
 
 .header__block {
   display: grid;
   grid-template-columns: 0.1fr 0.8fr 0.1fr;
-  margin: 0; /* Убедитесь, что нет отступов */
-  padding: 0; /* Убедитесь, что нет внутреннего отступа */
+  margin: 0;
+  padding: 0;
   width: 100%;
 }
 
-
-.header__logo {}
+.header__logo {
+}
 
 .header__list {
   list-style: none;
@@ -90,15 +84,15 @@
   padding: 14px 11px;
 }
 
-@media (max-width: 780px) {
+@media (tablet-portrait) {
   .header {
-    width: 100vw; /* Обеспечивает растяжение на всю ширину окна просмотра */
-    margin: 0; /* Убирает внешние отступы */
-    padding: 10px 50px; /* Убирает внутренние отступы */
+    width: 100vw;
+    margin: 0;
+    padding: 10px 50px;
   }
-  
 
-  .header__list, .call_back {
+  .header__list,
+  .call_back {
     display: none;
   }
 
@@ -106,14 +100,16 @@
     display: block;
   }
 
-  .tuggle {
+  .header__tuggle {
     display: block;
-    float: right;    
+    float: right;
   }
 
-  #more {
-    width: 40px;
-    float: right;
-    padding-top: 30px;
+  .menu_list {
+    display: none;
+  }
+
+  .menu_list.active {
+    display: block;
   }
 }
